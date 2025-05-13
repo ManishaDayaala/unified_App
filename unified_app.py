@@ -14,8 +14,8 @@ plant_links = {
     },
     "Hinupur CP ": {
         "Doosan": "https://doosan-cp-app.streamlit.app/",
-        "Paint Bhooth": "https://paint-cp-app.streamlit.app/",
-        "Sierra": "https://sierra-cp-app.streamlit.app/"
+        "Paint Bhooth TH": "https://paint-cp-app.streamlit.app/",
+        "Sierra Burnishing": "https://sierra-cp-app.streamlit.app/"
     },
     "Peenya ": {
         "FG-Paint Bhooth": "https://fgpeenya-app.streamlit.app/",
@@ -29,12 +29,12 @@ plant_links = {
     },
     "Chennai A22 ": {
         "Robo Polishing": "https://app-roboa22.streamlit.app/",
-        "Microtek": "https://microteka22-app.streamlit.app/",
-        "Sierra": "https://sierraa22py-app.streamlit.app/"
+        "Microtek Burnishing": "https://microteka22-app.streamlit.app/",
+        "Sierra burnishing": "https://sierraa22py-app.streamlit.app/"
     },
     "Jaipur ": {
         "Friction Welding": "https://friction-jaipur-app.streamlit.app/",
-        "Widma": "https://widma-jaipur-app.streamlit.app/"
+        "Widma Burnishing": "https://widma-jaipur-app.streamlit.app/"
         
     }
 }
@@ -56,6 +56,9 @@ instructions = """
 
 - 📞 **Still Not Working**  
   If the issue continues after a refresh, please contact the app owner or support team for help.
+  
+- 🛠️ **Not Used Recently?**  
+  Tap **"Get the App Backup"** if the app hasn’t been used in a few days.
 """
 st.markdown(instructions)
 
