@@ -68,6 +68,7 @@ def display_plant_machine_links(plant_name):
     
     machine_links = plant_links[plant_name]
     
+    
     # Display machine names with links
     for machine, link in machine_links.items():
         st.markdown(f"""
