@@ -1,4 +1,5 @@
 import streamlit as st
+import base64
 
 # Set up the page
 st.set_page_config(page_title="Smart Maintenance App", layout="wide")
