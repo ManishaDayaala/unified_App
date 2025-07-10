@@ -2,7 +2,30 @@ import streamlit as st
 
 # Set up the page
 st.set_page_config(page_title="Smart Maintenance App", layout="wide")
-st.title("🛠️ Smart Maintenance App")
+logo_path=os.path.join("Logo","logo_wipro.png")
+
+# Read and encode the image
+with open(logo_path, "rb") as image_file:
+    encoded_image = base64.b64encode(image_file.read()).decode()
+
+# Define the sizes you want
+logo_width = 200         # Adjust logo width
+title_font_size = 50    # Adjust title font size
+
+
+# Display logo and title side by side
+st.markdown(
+    f"""
+    <div style="display: flex; align-items: center;">
+        <img src="data:image/png;base64,{encoded_image}" width="{logo_width}" style="margin-right: 15px;">
+        <span style="font-size: {title_font_size}px; font-weight: bold;">Smart Maintenance App</span>
+    </div>
+    <br><br>  <!-- Adds 1 line breaks -->
+    """,
+    unsafe_allow_html=True
+)
+
+#st.title("Smart Maintenance App")
 
 # Data: Plant and its machine links
 plant_links = {
