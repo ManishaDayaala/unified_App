@@ -3,7 +3,8 @@ import base64
 
 # Set up the page
 st.set_page_config(page_title="Smart Maintenance App", layout="wide")
-logo_path=os.path.join("Logo","logo_wipro.png")
+logo_path=r"./Logo"
+
 
 # Read and encode the image
 with open(logo_path, "rb") as image_file:
