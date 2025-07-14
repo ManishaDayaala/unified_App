@@ -31,13 +31,13 @@ st.markdown(
 
 # Data: Plant and its machine links
 plant_links = {
-    "Hinupur CRP ": {
+    "Hindupur CRP ": {
         "ACME-1": "https://appacme.streamlit.app/",
         "Barpeeling-Reeling": "https://barpeelingupdatedtime.streamlit.app/",
         "Straightening": "https://app-straightning-crp.streamlit.app/",
         "ACME-2": "https://app-acme2-crp.streamlit.app/"
     },
-    "Hinupur CP ": {
+    "Hindupur CP ": {
         "Doosan": "https://doosan-cp-app.streamlit.app/",
         "Paint Bhooth TH": "https://paint-cp-app.streamlit.app/",
         "Sierra Burnishing": "https://sierra-cp-app.streamlit.app/"
