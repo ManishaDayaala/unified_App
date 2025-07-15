@@ -20,7 +20,7 @@ st.markdown(
     f"""
     <div style="display: flex; align-items: center;">
         <img src="data:image/png;base64,{encoded_image}" width="{logo_width}" style="margin-right: 15px;">
-        <span style="font-size: {title_font_size}px; font-weight: bold;">Smart Maintenance App</span>
+        <span style="font-size: {title_font_size}px; font-weight: bold;">Smart Maintenance Tool</span>
     </div>
     <br><br>  <!-- Adds 1 line breaks -->
     """,
