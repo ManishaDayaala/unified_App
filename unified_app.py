@@ -2,7 +2,7 @@ import streamlit as st
 import base64
 
 # Set up the page
-st.set_page_config(page_title="Smart Maintenance App", layout="wide")
+st.set_page_config(page_title="Smart Maintenance Tool", layout="wide")
 logo_path = r"./Logo/logo_wipro_cropped.png"
 
 
@@ -66,7 +66,7 @@ plant_links = {
 
 # Display Instructions
 instructions = """
-### Welcome to Smart Maintenance App!
+###
 - Select a plant below to view the available machines.
 - Click on the machine name to open the respective machine link.
 
